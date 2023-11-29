@@ -362,29 +362,28 @@ export interface AdminTransferTokenPermission extends Schema.CollectionType {
   };
 }
 
-export interface ApiExtremelyUnecessarilyLongExtremelyUnecessarilyLong
+export interface ApiAlsoAnExtremelyXLongNameForACollectionTypeAlsoAnExtremelyXLongNameForACollectionType
   extends Schema.CollectionType {
-  collectionName: 'extremely_unecessarily_longs';
+  collectionName: 'also_an_extremely_x_long_name_for_a_collection_types';
   info: {
-    singularName: 'extremely-unecessarily-long';
-    pluralName: 'extremely-unecessarily-longs';
-    displayName: 'ExtremelyUnecessarilyLong';
+    singularName: 'also-an-extremely-x-long-name-for-a-collection-type';
+    pluralName: 'also-an-extremely-x-long-name-for-a-collection-types';
+    displayName: 'AlsoAnExtremelyxLongNameForACollectionType';
   };
   options: {
     draftAndPublish: false;
   };
   attributes: {
-    name: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
-      'api::extremely-unecessarily-long.extremely-unecessarily-long',
+      'api::also-an-extremely-x-long-name-for-a-collection-type.also-an-extremely-x-long-name-for-a-collection-type',
       'oneToOne',
       'admin::user'
     > &
       Attribute.Private;
     updatedBy: Attribute.Relation<
-      'api::extremely-unecessarily-long.extremely-unecessarily-long',
+      'api::also-an-extremely-x-long-name-for-a-collection-type.also-an-extremely-x-long-name-for-a-collection-type',
       'oneToOne',
       'admin::user'
     > &
@@ -717,7 +716,7 @@ declare module '@strapi/types' {
       'admin::api-token-permission': AdminApiTokenPermission;
       'admin::transfer-token': AdminTransferToken;
       'admin::transfer-token-permission': AdminTransferTokenPermission;
-      'api::extremely-unecessarily-long.extremely-unecessarily-long': ApiExtremelyUnecessarilyLongExtremelyUnecessarilyLong;
+      'api::also-an-extremely-x-long-name-for-a-collection-type.also-an-extremely-x-long-name-for-a-collection-type': ApiAlsoAnExtremelyXLongNameForACollectionTypeAlsoAnExtremelyXLongNameForACollectionType;
       'plugin::upload.file': PluginUploadFile;
       'plugin::upload.folder': PluginUploadFolder;
       'plugin::i18n.locale': PluginI18NLocale;

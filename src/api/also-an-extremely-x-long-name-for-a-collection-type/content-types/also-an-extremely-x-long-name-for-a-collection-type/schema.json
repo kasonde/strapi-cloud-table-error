@@ -1,0 +1,14 @@
+{
+  "kind": "collectionType",
+  "collectionName": "also_an_extremely_x_long_name_for_a_collection_types",
+  "info": {
+    "singularName": "also-an-extremely-x-long-name-for-a-collection-type",
+    "pluralName": "also-an-extremely-x-long-name-for-a-collection-types",
+    "displayName": "AlsoAnExtremelyxLongNameForACollectionType"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}
