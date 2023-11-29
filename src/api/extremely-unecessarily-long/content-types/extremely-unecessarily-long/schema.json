@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "extremely_unecessarily_longs",
+  "info": {
+    "singularName": "extremely-unecessarily-long",
+    "pluralName": "extremely-unecessarily-longs",
+    "displayName": "ExtremelyUnecessarilyLong"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "also_an_extremely_disturbingly_long_name_for_a_collection_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::also-an-extremely-disturbingly-long-name-for-a-collection-type.also-an-extremely-disturbingly-long-name-for-a-collection-type",
+      "mappedBy": "extremely_unecessarily_long"
+    }
+  }
+}

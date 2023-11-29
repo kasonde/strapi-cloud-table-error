@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_testing_this_is_also_a_long_compos",
+  "info": {
+    "displayName": "ThisIsAlsoALongCompo"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
